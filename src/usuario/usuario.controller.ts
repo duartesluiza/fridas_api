@@ -1,3 +1,5 @@
+/*
+
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { UsuarioService } from './usuario.service';
 import { Usuario } from './usuario.entity';
@@ -22,3 +24,5 @@ export class UsuarioController {
     }
 
 }
+
+*/

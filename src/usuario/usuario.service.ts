@@ -1,3 +1,6 @@
+/*
+
+
 import { Injectable, Inject } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { Usuario } from './usuario.entity';
@@ -22,21 +25,22 @@ export class UsuarioService {
         usuario.password = data.senha
         return this.usuarioRepository.save(usuario)
             /* Se der certo: */
-            .then((result) => {
-                return <ResultadoDto>{
-                    status: true,
-                    mensagem: "Usuário Cadastrado com sucesso"
-                }
-            })
+/*           .then((result) => {
+               return <ResultadoDto>{
+                   status: true,
+                   mensagem: "Usuário Cadastrado com sucesso"
+               }
+           })
 
-            /* Se der errado: */
-            .catch((error) => {
-                return <ResultadoDto>{
-                    status: false,
-                    mensagem: "Houve um erro ao cadastrar o usuário"
-                }
+           /* Se der errado: */
+/*          .catch((error) => {
+              return <ResultadoDto>{
+                  status: false,
+                  mensagem: "Houve um erro ao cadastrar o usuário"
+              }
 
-            })
+          })
 
-    }
+  }
 }
+*/

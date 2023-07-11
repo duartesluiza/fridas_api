@@ -1,3 +1,5 @@
+/*
+
 import { Module } from '@nestjs/common';
 import { DatabaseModule } from '../database/database.module';
 import { usuarioProviders } from './usuario.providers';
@@ -13,3 +15,7 @@ import { UsuarioController } from './usuario.controller';
     ],
 })
 export class UsuarioModule { }
+
+
+
+*/
