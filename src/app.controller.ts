@@ -17,13 +17,13 @@ export class AppController {
   }
 
 
-
-  @Post('cadastrar')
-  cadastrar(): Promise<any> {
-    return <any>{
-      mensagem: "Salvou"
-    }
-
-  }
-
+  /*
+    @Post('cadastrar')
+    cadastrar(): Promise<any> {
+      return <any>{
+        mensagem: "Salvou"
+      }
+  
+}
+*/
 }
