@@ -1,8 +1,6 @@
-/*
-
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity({ name: 'usuario' })
+@Entity({ name: 'usuario', schema: 'public' })
 export class Usuario {
     @PrimaryGeneratedColumn()
     id: number;
@@ -17,6 +15,3 @@ export class Usuario {
     password: string;
 
 }
-
-
-*/

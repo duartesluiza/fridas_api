@@ -1,5 +1,3 @@
-/*
-
 import { DataSource } from 'typeorm';
 import { Usuario } from './usuario.entity';
 
@@ -10,6 +8,3 @@ export const usuarioProviders = [
         inject: ['DATA_SOURCE'],
     },
 ];
-
-
-*/
